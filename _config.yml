@@ -1,3 +1,13 @@
 title: Fatima's Personal Website
 description: My portfolio site
-_includes: Home, About, Projects, Contact
+
+# Navigation items (custom configuration)
+nav_items:
+  - name: Home
+    url: "#navigation-bar"
+  - name: About
+    url: "#about"
+  - name: Projects
+    url: "#Projects"
+  - name: Contact
+    url: "#contact"
