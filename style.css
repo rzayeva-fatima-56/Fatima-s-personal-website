@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=League+Script&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: VT323;
+  box-sizing: border-box;
+  color: #000;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1c1e1d;
+  color: #000;
+
+}
+
+#header {
+  width: 100%;
+  height: 100hv;
+  /*background-image: url(images/header-image.jpg);*/
+  background-size: cover;
+  background-position: center;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --tertiary-color: #8136cc;
+  --quaternary-color: #5331fe;
+  --quinary-color: #0A1A2F;
+  --senary-color: #fff;
+  --septenary-color: #000;
+  --octonary-color: #fff;
+  --nonary-color: #000;
+  --denary-color: #fff;
+}
+
+/*.navigation-bar {
+  background-image: url(images/10164860.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 500px;
+  padding: 20px 5% 40px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}*/
+
+nav {
+  background-color: #000000;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+
+nav h1 a{
+  text-decoration: none;
+  transition: color 0.8s ease;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-family:  League Script;
+}
+
+nav h1 a:hover{
+  color: var(--tertiary-color);
+  width: 100%;
+}
+
+.container {
+  padding : 10px 5%;
+}
+
+.container-1{
+  padding : 10px 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 180px;
+  width: 300px;
+  object-position: left;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+/*nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: var(--tertiary-color);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}*/
+
+nav ul li a:hover{
+  color: var(--tertiary-color);
+  width: 100%;
+}
+
+#introduction {
+  display: flex;
+  padding: 95px 3%;
+  border-radius: 2em;
+}
+
+.header-text {
+  margin-top: 15%;
+  margin-bottom: 120px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.header-text h1 {
+  margin-bottom: 90px;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-text h1 span {
+  color: #8136cc;
+  /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), -1px -1px 2px rgba(0, 0, 0, 0.7);*/
+}
+
+.header-text p {
+  text-align: left;
+  color: #ffffff;
+}
+
+#introduction img {
+  width: 150%;
+  height: 100%;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+/*---about---*/
+
+#about {
+  padding: 80px 5%;
+  color: #000000;
+  background-color: #d19b35;
+  margin-top: 80px;
+}
+
+#about p {
+  color: #000000;
+}
+
+#Projects {
+  margin-top: 80px;
+  padding: 80px 5%;
+  color: #000000;
+  background-color: #d19b35;
+}
+
+#Projects p {
+  color: #000000;
+}
+
+#Projects .about-col-2 {
+  text-align: left;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 35%;
+}
+
+.about-col-1 img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+.about-col-2 {
+  flex-basis: 60%;
+  text-align: right;
+  font-size: 25px;
+}
+
+.sub-title {
+  font-size: 60px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.tab-titles {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 40px;
+  gap: 25px;
+}
+
+.tab-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tab-titles a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.tab-titles a img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.tab-titles a i {
+  font-size: 35px;
+  color: #000000;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.tab-item:hover a i {
+  color: var(--tertiary-color);
+}
+
+.tab-item:hover a img {
+  opacity: 0.7;
+}
+
+.tab-links {
+  font-size: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  margin: 0;
+}
+
+.tab-links::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: var(--quaternary-color);
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.8s;
+}
+
+.tab-links:hover::after{
+  width: 100%;
+}
+
+/*------Contact------*/
+
+#contact {
+  margin-top: 80px;
+  padding: 80px 5% 60px;
+  background-color: #000;
+}
+
+.contact {
+  text-align: center;
+  width: 100%;
+}
+
+.contact .sub-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contact p{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.contact p i {
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.social-icons {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a{
+  text-decoration: none;
+  font-size: 40px;
+  color: #ffffff;
+  transition: 0.8s;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a i {
+  display: block;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.social-icons a:hover{
+  color: var(--tertiary-color);
+  transform: translateY(-5px);
+}
+
+.social-icons a:hover i {
+  color: var(--tertiary-color);
+}
+
+/*----- css for smaller screens ------*/
+
+@media only screen and(max-width: 600px) {
+
+}
