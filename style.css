@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #1c1e1d;
+  background-color: #1c1d1c;
   color: #000;
 
 }
@@ -29,7 +29,7 @@ body {
   --primary-color: #000;
   --secondary-color: #fff;
   --tertiary-color: #8136cc;
-  --quaternary-color: #5331fe;
+  --quaternary-color: #cbeaf2;
   --quinary-color: #d19b35;
   --senary-color: #fff;
   --septenary-color: #000;
@@ -83,7 +83,13 @@ nav h1 a:hover{
 }
 
 .container-1{
-  padding : 10px 5%;
+  padding : 5px 2%;
+  background: #303a31;
+  border-radius: 12px;
+  border: 4px solid #000000;
+  box-shadow: 6px 6px 0px #ffffff;
+  max-width: 90%;
+  margin: 110px auto 0;
 }
 
 nav {
@@ -132,26 +138,28 @@ nav ul li a:hover{
 
 #introduction {
   display: flex;
-  padding: 95px 3%;
+  align-items: center;
+  padding: 40px 3% 80px;
   border-radius: 2em;
+  margin: 10% 0;
 }
 
 .header-text {
-  margin-top: 15%;
-  margin-bottom: 120px;
+  margin-top: 0;
+  margin-bottom: 40px;
   font-size: 30px;
   text-align: center;
 }
 
 .header-text h1 {
-  margin-bottom: 90px;
-  font-size: 90px;
+  margin-bottom: 40px;
+  font-size: 80px;
   text-align: center;
   color: #ffffff;
 }
 
 .header-text h1 span {
-  color: #8136cc;
+  color: #02fe0e;
   /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), -1px -1px 2px rgba(0, 0, 0, 0.7);*/
 }
 
@@ -165,7 +173,6 @@ nav ul li a:hover{
   width: 180%;
   height: 100%;
   margin-left: 90px;
-  margin-top: 15%;
 }
 
 /*---about---*/
@@ -173,8 +180,15 @@ nav ul li a:hover{
 #about {
   padding: 80px 5%;
   color: #000000;
-  background-color: #d19b35;
   margin-top: 80px;
+
+  background: #e9f8dd;
+  padding: 40px;
+  border-radius: 12px;
+  border: 4px solid #222;
+  box-shadow: 6px 6px 0px #ffffff;
+  max-width: 90%;
+  margin: 30px auto;
 }
 
 #about p {
@@ -185,7 +199,14 @@ nav ul li a:hover{
   margin-top: 80px;
   padding: 80px 5%;
   color: #000000;
-  background-color: #d19b35;
+  
+  background: #e5e5f9;
+  padding: 40px;
+  border-radius: 20px;
+  border: 4px solid #222;
+  box-shadow: 6px 6px 0px #ffffff;
+  max-width: 90%;
+  margin: 30px auto;
 }
 
 #Projects p {
@@ -222,6 +243,10 @@ nav ul li a:hover{
 
 #Projects .tab-links {
   text-align: left;
+}
+
+#Projects .about-col-1 img{
+  margin-top: 30%;
 }
 
 .row {
@@ -347,7 +372,7 @@ nav ul li a:hover{
   content: '';
   width: 0;
   height: 3px;
-  background-color: var(--quaternary-color);
+  background-color: var(--tertiary-color);
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -418,12 +443,12 @@ nav ul li a:hover{
 }
 
 .social-icons a:hover{
-  color: var(--quinary-color);
+  color: var(--tertiary-color);
   transform: translateY(-5px);
 }
 
 .social-icons a:hover i {
-  color: var(--quinary-color);
+  color: var(--tertiary-color);
 }
 
 /*----- css for smaller screens ------*/
