@@ -30,7 +30,7 @@ body {
   --secondary-color: #fff;
   --tertiary-color: #8136cc;
   --quaternary-color: #5331fe;
-  --quinary-color: #0A1A2F;
+  --quinary-color: #d19b35;
   --senary-color: #fff;
   --septenary-color: #000;
   --octonary-color: #fff;
@@ -380,7 +380,7 @@ nav ul li a:hover{
 .contact p{
   margin-top: 30px;
   text-align: center;
-  font-size: 18px;
+  font-size: 25px;
   color: #ffffff;
 }
 
@@ -388,6 +388,7 @@ nav ul li a:hover{
   margin-right: 15px;
   color: #ffffff;
   font-size: 25px;
+  text-align: center;
 }
 
 .social-icons {
@@ -417,12 +418,12 @@ nav ul li a:hover{
 }
 
 .social-icons a:hover{
-  color: var(--tertiary-color);
+  color: var(--quinary-color);
   transform: translateY(-5px);
 }
 
 .social-icons a:hover i {
-  color: var(--tertiary-color);
+  color: var(--quinary-color);
 }
 
 /*----- css for smaller screens ------*/
