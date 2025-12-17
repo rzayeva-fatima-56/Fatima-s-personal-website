@@ -251,6 +251,15 @@ nav ul li a:hover{
   margin-top: 40%;
 }
 
+.tab-item img {
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 8px;
+  border-radius: 6px;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -660,6 +669,18 @@ nav ul li a:hover{
     font-size: 22px;
   }
 
+  .second {
+    width: 100%;
+    text-align: center;
+  }
+
+  .second img {
+    width: 110px;
+    height: auto;
+    margin-top: 8px;
+    border-radius: 6px;
+  }
+
   /* Contact Section */
   #contact {
     padding: 30px 20px;
@@ -854,6 +875,11 @@ nav ul li a:hover{
     height: 35px;
   }
 
+  .tab-item img {
+    display: block;
+    width: 130px;
+  }
+
   .tab-titles a i {
     font-size: 32px;
   }
@@ -982,5 +1008,10 @@ nav ul li a:hover{
 
   .tab-links {
     font-size: 28px;
+  }
+
+  .tab-item img {
+    display: block;
+    width: 130px;
   }
 }
