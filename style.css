@@ -669,15 +669,37 @@ nav ul li a:hover{
     font-size: 22px;
   }
 
-  .second {
-    width: 100%;
+  .tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
-  .second img {
-    width: 110px;
+  .tab-item a {
+    order: 1;
+  }
+
+  .tab-item > img {
+    order: 2;
+    width: 90%;
+    max-width: 260px;
     height: auto;
-    margin-top: 8px;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+
+  .tab-item .second {
+    order: 3;
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .tab-item .second img {
+    width: 120px;
+    height: auto;
     border-radius: 6px;
   }
 
@@ -886,6 +908,34 @@ nav ul li a:hover{
 
   .tab-links {
     font-size: 25px;
+  }
+
+  .tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tab-item > img {
+    width: 260px;
+    max-width: 90%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+
+  .tab-item .second {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .tab-item .second img {
+    width: 120px;
+    height: auto;
+    border-radius: 6px;
   }
 
   .social-icons a {
